@@ -1,0 +1,11 @@
+local function ii02ii(msg,matches)
+local Memo = matches[2]
+return Memo
+end
+
+  return  {
+    patterns = {
+      "^(كول)(.+)",
+},
+  run = run,
+}
